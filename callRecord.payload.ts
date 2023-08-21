@@ -1,4 +1,4 @@
-import { CallRecordData } from "./callRecordCommunication.payload";
+import { CallRecordData } from "./callRecordCommunication.type";
 
 export const callRecord: CallRecordData[] = [
   {

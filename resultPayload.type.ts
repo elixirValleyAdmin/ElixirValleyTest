@@ -1,5 +1,5 @@
-import { CallRecordData } from "./callRecordCommunication.payload";
-import { CustomerCommunicationHistory } from "./customerCommunication.payload";
+import { CallRecordData } from "./callRecordCommunication.type";
+import { CustomerCommunicationHistory } from "./customerCommunication.type";
 
 export interface DataPayload {
   customerCommunicationData: CustomerCommunicationHistory[];
